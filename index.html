@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example Scala.js application</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <style>
+
+    body {
+      font: 10px sans-serif;
+    }
+
+    .bar rect {
+      fill: steelblue;
+      shape-rendering: crispEdges;
+    }
+
+    .bar text {
+      fill: #fff;
+    }
+
+    .axis path, .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>Example Scala.js d3 facade application - development version</h1>
+
+<p>After having compiled and packaged properly the code for the application
+  (using `sbt fastOptJS`), you should see some bars here below.
+  See README.md for detailed explanations.</p>
+
+<div id="playground">
+</div>
+
+<script type="text/javascript" src="./target/scala-2.11/example-jsdeps.js"></script>
+<script type="text/javascript" src="./target/scala-2.11/example-fastopt.js"></script>
+<script type="text/javascript" src="./target/scala-2.11/example-launcher.js"></script>
+
+
+</body>
+</html>
