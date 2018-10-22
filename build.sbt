@@ -19,6 +19,6 @@ libraryDependencies ++= Seq(
     "com.lihaoyi" %%% "utest" % "0.4.3" % "test"
 )
 
-mainClass in Compile := Some("example.ScalaJSExample5")
+mainClass in Compile := Some("example.ScalaJSExample7")
 
 
